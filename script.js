@@ -16,3 +16,11 @@ var app_2 = new Vue({
     }
   }
 })
+
+var app_3 = new Vue({
+  el: '#app-3',
+  data: {
+    seen: true
+    hide: false
+  }
+})
