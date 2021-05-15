@@ -6,14 +6,21 @@
   </head>
   <body>
     <script src="script.js"></script>
+<!-- 	template 1   -->
 	<div id="app_1">
   		<p>{{ message }}</p>
   		<button v-on:click="reverseMessage">Reverse Message</button>
 	</div>
 	  <br><br>
+<!-- template 2 -->
 	<div id="app_2">
   		<p>{{ message }}</p>
   		<input v-model="message">
 	</div>
+	  <br><br>
+<!-- 	template 3   -->
+	  <div id="app-3">
+  		<span v-if="seen">Now you see me</span>
+	  </div>
   </body>
 </html>
